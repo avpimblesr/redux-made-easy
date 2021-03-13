@@ -14,8 +14,8 @@ const Counter = () => {
   return (
     <div style={{ backgroundColor: 'lightgray' }}>
       <h3>{`Count: ${count}`}</h3>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <button onClick={decrement}> Decrement</button>
+      <div style={{ display: 'flex', justifyContent:'center'}}>
+        <button onClick={decrement}> Decrement</button>&nbsp;
         <button onClick={increment}> Increment</button>
       </div>
     </div>
